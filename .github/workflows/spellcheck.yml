@@ -38,16 +38,17 @@ jobs:
             }
           extra_dictionaries:
             cspell:aws/aws.txt
+            cspell:companies/src/companies.txt
             cspell:css/css.txt
             cspell:filetypes/filetypes.txt
+            cspell:fonts/fonts.txt
             cspell:fullstack/fullstack.txt
             cspell:html/html.txt
             cspell:node/node.txt
             cspell:npm/npm.txt
             cspell:software-terms/src/software-terms.txt
-            cspell:companies/src/companies.txt
+            cspell:software-terms/src/software-tools.txt
             cspell:typescript/typescript.txt
-            cspell:fonts/fonts.txt
             shypyard:dictionary.txt
 
   comment-pr:
