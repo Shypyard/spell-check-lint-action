@@ -3,6 +3,9 @@
 # Integration keys
 ([^'^"^`]+:)?[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}(:[^'^"^`]+)?
 
+# Word ends with `s` to represent a list of something
+\w+s
+
 # uuid:
 [0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}
 
