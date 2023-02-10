@@ -18,6 +18,9 @@
 # mailto urls
 mailto:[-a-zA-Z=;:/?%&0-9+@.]{3,}
 
+# email
+[\w-\.]+@([\w-]+\.)+[\w-]{2,4}
+
 # URLs
 http(?:s?)://[^\s^"^']+
 

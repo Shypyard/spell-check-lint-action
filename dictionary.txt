@@ -11,6 +11,7 @@ classname
 clickable
 copyable
 crm
+crt
 cubejs
 cvv
 datadog
@@ -70,6 +71,7 @@ shypyard
 sku
 skus
 Skype
+sls
 snapchat
 sourced
 spellcheck
@@ -104,6 +106,11 @@ workaround
 XAxis
 xero
 xstate
+xxl
+xxs
+xxxl
+xxxs
+xxxxl
 YAxis
 youtube
 zendesk
