@@ -27,7 +27,7 @@ jobs:
           post_comment: 0
           use_magic_file: 1
           spell_check_this: Shypyard/spell-check-lint-action@main
-          check_commit_messages: commits title description
+          check_commit_messages: commits title
           dictionary_source_prefixes: >
             {
               "shypyard": "https://raw.githubusercontent.com/Shypyard/spell-check-lint-action/main/",
