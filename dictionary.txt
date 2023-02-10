@@ -19,7 +19,9 @@ dayjs
 ebay
 etd
 EUR
+fba
 fbevents
+fbm
 fbq
 figma
 firefox
