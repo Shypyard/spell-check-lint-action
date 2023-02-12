@@ -5,6 +5,7 @@ backorder
 bom
 boms
 breadcrumb
+breadcrumbs
 btn
 calendly
 classname
@@ -17,6 +18,7 @@ cvv
 datadog
 datahub
 dayjs
+dsn
 ebay
 etd
 EUR
@@ -34,11 +36,15 @@ fulfillable
 fullstory
 github
 gql
+GROUPBY
 heroku
 hotspot
 hoverable
+IBuy
 idx
 immer
+IPurchase
+ISell
 JPY
 loadmore
 mailchimp
@@ -117,7 +123,3 @@ zendesk
 ZIndex
 zoey
 zoho
-GROUPBY
-maxBreadcrumbs
-Breadcrumbs
-dsn

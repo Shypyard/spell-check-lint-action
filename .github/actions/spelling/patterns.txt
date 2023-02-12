@@ -27,9 +27,6 @@ mailto:[-a-zA-Z=;:/?%&0-9+@.]{3,}
 # URLs
 http(?:s?)://[^\s^"^']+
 
-# TypeScript interface or terms for business logic (e.g., `itemsIPurchase`)
-I[A-Z]\w+
-
 # Questionably acceptable forms of `in to`
 # Personally, I prefer `log into`, but people object
 # https://www.tprteaching.com/log-into-log-in-to-login/
