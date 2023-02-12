@@ -118,3 +118,5 @@ ZIndex
 zoey
 zoho
 GROUPBY
+maxBreadcrumbs
+dsn
