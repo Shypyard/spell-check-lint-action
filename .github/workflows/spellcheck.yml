@@ -14,27 +14,38 @@ jobs:
       contents: read
       pull-requests: read
       actions: read
+    env:
+      sharedConfigRepo: spell-check-lint-action
+      configPath: .github/actions/spelling
     outputs:
       followup: ${{ steps.spelling.outputs.followup }}
     steps:
+      - name: checkout from default branch
+        uses: actions/checkout@v3
+      - name: Clone shared config
+        run: git clone https://github.com/Shypyard/$sharedConfigRepo.git
+      - name: Merge configs
+        run: |
+          mkdir ./tmp
+          if [ ! -d "$configPath" ]; then mkdir ./$configPath; fi
+          mv ./$configPath/* ./tmp/
+          cp ./$sharedConfigRepo/$configPath/* ./$configPath/
+          mv ./tmp/* ./$configPath/
       - name: check-spelling
         id: spelling
         uses: check-spelling/check-spelling@main
         with:
           only_check_changed_files: 1
-          checkout: true
           check_file_names: 1
           post_comment: 0
           use_magic_file: 1
-          spell_check_this: Shypyard/spell-check-lint-action@main
           check_commit_messages: commits title
           dictionary_source_prefixes: >
             {
               "shypyard": "https://raw.githubusercontent.com/Shypyard/spell-check-lint-action/main/",
               "cspell": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20220816/dictionaries/"
             }
-          extra_dictionaries:
-            shypyard:dictionary.txt
+          extra_dictionaries: shypyard:dictionary.txt
             cspell:aws/aws.txt
             cspell:companies/src/companies.txt
             cspell:css/css.txt
@@ -60,4 +71,3 @@ jobs:
         uses: check-spelling/check-spelling@main
         with:
           task: ${{ needs.spelling.outputs.followup }}
-          spell_check_this: Shypyard/spell-check-lint-action@main

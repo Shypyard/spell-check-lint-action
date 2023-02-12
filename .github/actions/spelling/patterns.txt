@@ -3,14 +3,14 @@
 # Integration keys
 ([^'^"^`]+:)?[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}(:[^'^"^`]+)?
 
-# Word ends with `s` to represent a list of something
-\w+s
-
 # uuid:
 [0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}
 
 # hex color
 \#[0-9a-fA-F]{3,8}
+
+# hex runs
+\b[0-9a-fA-F]{16,}\b
 
 # hex digits including css/html color classes:
 (?:[\\0][xX]|\\u|[uU]\+|#x?|\%23)[0-9_a-fA-FgGrR]*?[a-fA-FgGrR]{2,}[0-9_a-fA-FgGrR]*(?:[uUlL]{0,3}|u\d+)\b
@@ -22,7 +22,7 @@
 mailto:[-a-zA-Z=;:/?%&0-9+@.]{3,}
 
 # email
-[\w-\.]+@([\w-]+\.)+[\w-]{2,4}
+[\w\-\.]+@([\w\-]+\.)+[\w\-]{2,4}
 
 # URLs
 http(?:s?)://[^\s^"^']+
