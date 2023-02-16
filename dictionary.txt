@@ -130,3 +130,8 @@ IStore
 ISell
 IPurchase
 testid
+GROUPBY
+maxBreadcrumbs
+Breadcrumbs
+dsn
+ele
