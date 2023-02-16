@@ -135,3 +135,14 @@ maxBreadcrumbs
 Breadcrumbs
 dsn
 ele
+chunkhash
+gifsicle
+HMR
+integestion
+jsnext
+mozjpeg
+noquotes
+optipng
+otf
+pmmmwh
+pwa
