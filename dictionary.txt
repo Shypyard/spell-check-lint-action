@@ -149,3 +149,7 @@ pwa
 signout
 anticon
 datasource
+andymckay
+nofilter
+npx
+typecheck
