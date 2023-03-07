@@ -157,3 +157,4 @@ typecheck
 ADS
 burndown
 EXCECUTIVE
+emoji
