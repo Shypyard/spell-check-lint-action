@@ -160,3 +160,11 @@ EXCECUTIVE
 emoji
 GQLPo
 hashkey
+codegen
+TObject
+TParent
+TArgs
+TResult
+TContext
+TKey
+TTypes
