@@ -150,6 +150,7 @@ pwa
 signout
 anticon
 datasource
+datasources
 andymckay
 nofilter
 npx
@@ -169,3 +170,12 @@ TContext
 TKey
 TTypes
 DDTHH
+fns
+ARRAYAGG
+vals
+dto
+DTO
+workDir
+agg
+CSVTo
+POLI
