@@ -212,3 +212,16 @@ setnx
 smembers
 ttls
 validater
+algoliasearch
+bcc
+dlq
+gnored
+hstore
+linted
+lintstagedrc
+mariadb
+mkdirs
+OOM
+sendinblue
+synck
+workdir
