@@ -191,7 +191,7 @@ ITable
 Runtimes
 sfn
 stepfunctions
-Strs
+strs
 memoizee
 WItems
 avsc
@@ -225,3 +225,4 @@ OOM
 sendinblue
 synck
 workdir
+forecastable
