@@ -44,21 +44,21 @@ jobs:
           dictionary_source_prefixes: >
             {
               "shypyard": "https://raw.githubusercontent.com/Shypyard/spell-check-lint-action/main/",
-              "cspell": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20220816/dictionaries/"
+              "cspell": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/main/dictionaries/"
             }
           extra_dictionaries: shypyard:dictionary.txt
             cspell:aws/aws.txt
             cspell:companies/src/companies.txt
-            cspell:css/css.txt
+            cspell:css/src/css.txt
             cspell:filetypes/filetypes.txt
             cspell:fonts/fonts.txt
-            cspell:fullstack/fullstack.txt
-            cspell:html/html.txt
+            cspell:fullstack/src/fullstack.txt
+            cspell:html/src/html.txt
             cspell:node/node.txt
-            cspell:npm/npm.txt
+            cspell:npm/src/npm.txt
             cspell:software-terms/src/software-terms.txt
             cspell:software-terms/src/software-tools.txt
-            cspell:typescript/typescript.txt
+            cspell:typescript/src/typescript.txt
 
   comment-pr:
     name: Report (PR)
